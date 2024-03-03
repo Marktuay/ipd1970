@@ -76,6 +76,7 @@ li:hover {
     transition: all 0.3s ease;
     color: #c4c4;
     padding-left: 8px;
+    transition: all  .5s;
 }
 
 
@@ -168,7 +169,7 @@ ul{
 	color: #000;
 	text-decoration: none;
 	font-weight: 300;
-	color: #bbbbbb;
+	color: #000;
 	display: block;
 	transition: all 0.3s ease;
 }
@@ -213,4 +214,30 @@ ul{
     color:#ffffff;
     background-color: #000;
     text-align: center;
+}
+
+/*********************FOOTER ENDS HERE**************************/
+
+button {
+    
+    top: auto;
+    font-family: "IBM Plex Mono" , monospace;
+    font-size: small;
+    border: #000  solid thin;
+    margin: 10px 10px;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 0px;
+    color: #000;
+}
+
+button:hover {
+    top: auto;
+    font-family: "IBM Plex Mono" , monospace;
+    font-size: small;
+    border: #000  solid thin;
+    margin: 10px 10px;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 0px;
+    color: #c4c4;
+    
 }
