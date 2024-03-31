@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <title>IPD | Generación 1970</title>
 </head>
@@ -36,7 +37,7 @@
     </div>
     <main>
         
-        <div id="container">
+        <div class="container">
             <div class="card">
                 <img class="circulo" src="images/Alejandroahmedabudserrano.jpg" alt="John" >
                 <h5>Alejandro Ahmed Abud Serrano</h5>
@@ -46,7 +47,22 @@
                 <a href="#"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-linkedin"></i></a>
                 <a href="#"><i class="fa fa-facebook"></i></a>
-                <p><button>Mas...</button></p>
+                <p><button id="myBtn">Mas...</button></p>
+                    <!-- Modal-->
+                   
+                        <div id="myModal" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Some text in the Modal..</p>
+                            </div>
+                        
+                        </div>    
+                    
+                    <!--END MODAL-->
+
+
             </div>
             <div class="card">
                 <img class="circulo" src="images/alejandropastortorees.jpg" alt="John" >
@@ -70,7 +86,7 @@
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <p><button>Mas...</button></p>
             </div>
-            <div class="card">
+            <div class="card" >
                 <img class="circulo" src="images/aminaliabudcordero.jpg" alt="John" >
                 <h5>Amin Alí Abud Cordero</h5>
                 <p class="title">CEO & Founder, Example</p>
@@ -112,7 +128,27 @@
                 <a href="#"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-linkedin"></i></a>
                 <a href="#"><i class="fa fa-facebook"></i></a>
-                <p><button>Mas...</button></p>
+                <p><button id="myBtn">Mas...</button></p>
+                    <!-- Modal-->
+                   
+                        <div id="myModal" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Some text in the Modal..</p>
+                            </div>
+                        
+                        </div>    
+                    
+                    <!--END MODAL-->
+
+
+
+
+
+
+
             </div>
             <div class="card">
                 <img class="circulo" src="images/carlosestebanalbirvilchez.jpg" alt="John" >
@@ -873,8 +909,8 @@
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <p><button>Mas...</button></p>
             </div>
-
-    </div>
+        </div>
+    
     
     </main>
 
@@ -926,7 +962,7 @@
    </div>
    
  
-    
+    <script src="app.js"></script>
    
 </body>
 </html>
